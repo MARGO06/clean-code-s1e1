@@ -30,7 +30,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task, .task-input {
+.task, 
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -38,17 +39,25 @@
 .main-page__task {
   display: flex;
 }
-.incomplete-tasks, .completed-tasks {
+.incomplete-tasks,
+.completed-tasks {
   margin: 0;
   padding: 0px;
 }
-.list, .name-part {
+.list,
+.name-part {
   list-style: none;
 }
-.task-input,.checkbox-input,.add, .edit, .delete{
+.task-input,
+.checkbox-input,
+.add,
+.edit,
+.delete {
   outline: none;
 }
-.add, .edit, .delete {
+.add,
+.edit,
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -57,7 +66,9 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.add, .edit, .delete :hover {
+.add,
+.edit,
+.delete :hover {
   color: #3a3a3a;
 }
 
@@ -105,19 +116,19 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+li * {
   vertical-align: middle;
 }
-li > input[type="checkbox"] {
+li input[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+li label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >    .task-input {
+li .task-input {
   width: 226px;
 }
 .delete img {
