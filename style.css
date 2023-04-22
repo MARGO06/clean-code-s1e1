@@ -18,9 +18,13 @@
 }
 
 @media (max-width:768px) {
-  .information { text-align: center;
+
+  .information { 
+    text-align: center;
   }
+
 }
+
 .main-page {
   display: block;
   width: 500px;
@@ -56,6 +60,7 @@
 .add, .edit, .delete :hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .name-part {
   color: #333;
@@ -103,7 +108,6 @@ li {
 li > * {
   vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -135,12 +139,10 @@ li >    .task-input {
 ul li input[type="text"] {
   display:none
 }
-
 ul li.list_edit input[type="text"] {
   display:inline-block;
   width:224px
 }
-
 ul li.list_edit .task {
   display:none;
 }
