@@ -33,7 +33,7 @@
 .task, .task-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .main-page__task {
   display: flex;
@@ -118,7 +118,7 @@ li > label {
   width: 226px;
 }
 li >    .task-input {
-  width: 226px
+  width: 226px;
 }
 .delete img {
   height: 2em;
@@ -131,17 +131,17 @@ li >    .task-input {
 
 /* Completed */
 .completed-tasks .task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 ul li input[type="text"] {
-  display: none
+  display: none;
 }
 ul li.list_edit input[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 ul li.list_edit .task {
   display: none;
